@@ -1,0 +1,35 @@
+
+
+.tranding-serch-div{
+    width: 100%;
+   
+    height: auto;
+
+   display: grid;
+}
+
+.trnd-title{
+    text-align: center;
+ 
+    height: 100px;
+}
+.trnadind-serch-title{
+  
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.tranding-serch-data{
+   background-color: rgb(240, 240, 240);
+    text-align: center;
+    
+}
+.tranding-serch-data>h2{
+    color:#333333;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+   letter-spacing: 0.2px;
+   
+}

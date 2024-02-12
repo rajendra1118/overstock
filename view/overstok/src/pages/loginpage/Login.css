@@ -1,0 +1,37 @@
+
+.register-loin{
+    background-color: antiquewhite;
+   padding: 40px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.register-loin>div{
+   margin: -20px;
+    width: 40%;
+}
+.create-account,.login{
+    padding: 20px;
+    display: block;
+    text-align: center;
+   border: 1px solid red;
+}
+.input-fields{
+   
+    text-align: center;
+   
+}
+.input-fields>input{
+    margin: 20px;
+    padding: 10px;
+    width: 240px;
+}
+.input-fields>div>button{
+    width: 270px;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    border: 1px solid gray;
+    /* padding-left:30px ;
+    padding-right: 50px; */
+    font-size: 20px;
+}

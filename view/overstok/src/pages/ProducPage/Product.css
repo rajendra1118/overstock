@@ -1,0 +1,44 @@
+
+
+.ProductSection{
+    
+    display: flex;
+    padding: 20px;
+}
+
+
+
+.sidebar{
+    width: 30%;
+   
+}
+
+
+
+.map-product{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.map-product>div{
+   
+    align-items: center;
+    display: block;
+
+}
+
+.map-product>div>img{
+    width: 80%;
+}
+
+.product-details{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 10px;
+
+}
+    
+/* .map-product>div>p,h3{
+    text-align: center;
+    width: 50%;
+} */

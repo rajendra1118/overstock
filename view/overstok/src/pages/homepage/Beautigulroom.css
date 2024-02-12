@@ -1,0 +1,33 @@
+
+
+
+.roomdiv{
+    padding: 10px;
+  
+    height: auto;
+    display: grid;
+    
+}
+
+.roomtitle{
+    text-align: center;
+   
+    height: 100px;
+}
+
+
+.roomproduct{
+
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.roomimage>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}

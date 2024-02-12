@@ -1,0 +1,92 @@
+
+/* box 2  */
+
+.box-2{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+
+    justify-content: space-around;
+    
+}
+ .box-2>div:nth-child(1){
+    width: 20%;
+    background-color: #dfdfdf;
+
+}
+.box-2>div:nth-child(1){
+    width: 80%;
+} 
+
+.f1div{
+    justify-content: center;
+    padding-top:100px ;
+    
+   
+}
+.f1div>div {
+  
+
+    display: block;
+    text-align: center;
+    
+}
+.f1div>div>h3{
+    margin-left: -100px;
+    margin-bottom: -10px;
+    font-size: 40px;
+    color: #428bca;
+}
+.f1div>div>h1{
+    margin-top: -20px;
+    font-weight: 800;
+    font-size: 80px;
+    font-style: initial;
+    color:darkblue;
+    margin-left:70px ;
+}
+.f1div>div>h4{
+    margin-top: -80px;
+    font-size: 40px;
+    margin-left: 130px;
+    color: #428bca;
+
+}
+
+
+
+.f1div>div:nth-child(2)>p{
+  margin-top: -20px;
+   width: 350px;  
+   margin-left: 100px;
+   font-size: 30px;
+   
+}
+.f1div>div:nth-child(2)>button{
+    color: white;
+    background-color: #428bca;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    margin-top: -40px;
+}
+
+
+.bigwallpaper{
+    position: relative;
+    padding: 20px;
+   
+    height: 550px;
+}
+
+.bigwallpaper>img{
+    width: 100%;
+    height: 550px;
+
+}
+.image2 {
+    position: absolute;
+    left: -100px;
+}
+

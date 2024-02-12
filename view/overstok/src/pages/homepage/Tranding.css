@@ -1,0 +1,47 @@
+
+
+
+
+/* tranding session block */
+
+.tranding-session-block{
+    width: 100%;
+
+    height: auto;
+
+   display: grid;
+}
+
+.tranding-title{
+    text-align: center;
+
+    height: 100px;
+}
+.tranding-product{
+  
+    height: auto;
+    display: flex;
+    gap:20px;
+    padding: 20px;
+  
+}
+.tranding-data{
+    background-color: rgb(241, 241, 241);
+   width: 28%;
+}
+.tranding-data>h2{
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -15px;
+}
+.tranding-data>p{
+    margin-left: 40px;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 500;
+}
+.tranding-data>img{
+   width: 100%;
+}

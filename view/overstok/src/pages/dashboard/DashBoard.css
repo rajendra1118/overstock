@@ -1,0 +1,195 @@
+
+.dashbord{
+  position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.shipindia{
+
+    align-items: center;
+    display: flex;
+    width: 100%;
+  
+ 
+    height: 30px;
+    background-color: aliceblue;
+}
+
+.img-style >img{
+    mix-blend-mode: multiply;
+    height: 150px;
+    width: 200px;
+    
+}
+
+.shipindia>img{
+    height: 30px;
+    width: 30px;
+
+    border-radius: 50%;
+}
+
+.serchbar{
+
+   background-color: white;
+    display: flex;
+    border: 1px solid white;
+    height: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.serch{
+    border: 1px solid white
+}
+.serch >input{
+    width: 900px;
+    height: 30px;
+}
+.account{
+    border: 1px solid white;
+    display: flex;
+    gap: 20px;
+}
+.account >div{
+   border: white;
+    
+}
+
+.font{
+    font-size: 15px;
+    display: inline-block;
+    /*  */
+   text-align: center;
+   text-decoration: none;
+}
+
+
+.dropDownprofile{
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
+    font-weight: 400px;
+    font-size: 15px;
+  border: 1px solid gray;
+    position: absolute;
+    top: 6.5rem;
+    right: 12rem;
+    width: 150px;
+    border-radius: 15px;
+    background-color: white;
+    
+}
+.dropDownprofile::before{
+    content: " ";
+    position: absolute;
+   background-color: white;
+   border-left:1px solid gray;
+   border-top:1px solid gray;
+}
+.dropDownprofile>div{
+  
+    align-items: center;
+
+
+}
+.dropDownprofile>div>li,.dropdown-link{
+    display: block;
+    margin: 15px;  
+    text-decoration: none;  
+}
+.dropdown-link{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+/* .dropdown-link{
+  text-decoration: none;
+} */
+
+
+/* .img-style>img{
+  width: 200px;
+  height: 200px;
+} */
+
+
+  
+
+
+
+
+/* top navbar csss */
+
+.navbarlist{
+  background-color: white;
+    padding: 2px;
+    border-top: 1px solid gray;
+    border-bottom:1px solid gray ;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+.navbarlist>li{
+    align-items: center;
+}
+
+/* dropdown css */
+.mega-dropdown {
+    position: relative;
+    display: inline-block;
+   
+  }
+  
+  .dropdown-toggle {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .mega-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .mega-dropdown:hover .mega-content {
+    display: flex;
+    gap:40px
+  }
+  
+  .column {
+    
+    padding: 10px;
+    text-align: left;
+
+  }
+  
+  .column h3 {
+    color: #333;
+  }
+  
+  .column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .column li {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .column li:hover {
+    background-color: #ddd;
+  }

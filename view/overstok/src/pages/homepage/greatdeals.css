@@ -1,0 +1,46 @@
+
+
+.greatdeals{
+    padding: 10px;
+   
+    height: auto;
+    display: grid;
+    
+}
+
+.title{
+    text-align: center;
+
+    height: 100px;
+}
+
+
+.deals-product{
+
+
+    height: 300px;
+    display: flex;
+    gap:30px;
+    padding: 30px;
+    text-align: center;
+    
+   
+}
+
+.imgdata>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+.imgdata>h2{
+    color: #428bca;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -20px;
+}
+.imgdata>p{
+    font-size: 20px;
+    font-weight: 500;
+}
