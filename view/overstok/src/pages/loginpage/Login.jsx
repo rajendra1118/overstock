@@ -20,7 +20,7 @@ const handleRegisteruser= async(paylod)=>{
 
     try {
 
-        let res= await fetch("http://localhost:8080/user/register",{
+        let res= await fetch("https://uninterested-pink-blazer.cyclic.app/user/register",{
             method:"POST",
             body:bodyContant,
             headers: {
@@ -47,8 +47,9 @@ const handllogineuserDetails=(e)=>{
 const handleLoginuser= async(paylod)=>{
     let bodyContant = JSON.stringify(logindetails)
        try {
-  
-        let res = await fetch('http://localhost:8080/user/login', {
+        // http://localhost:8080
+   
+        let res = await fetch('https://uninterested-pink-blazer.cyclic.app/user/login', {
             method: 'POST',
             body: bodyContant,
             headers: {

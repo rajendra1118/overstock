@@ -18,7 +18,7 @@ function Cart() {
        
        const userid= localStorage.getItem('userId')
           setuserid(userid)
-      axios.post("http://localhost:8080/user/getCart",data)
+      axios.post("https://uninterested-pink-blazer.cyclic.app/user/getCart",data)
       .then(res=>{
         console.log(res.data.Data.cart,"14")
         if(data){

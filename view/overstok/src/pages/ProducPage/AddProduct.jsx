@@ -19,7 +19,7 @@ function AddProduct() {
 
     console.log(Name,Image,Category,Price,Des)
     const data= {Image:Image,Name,Category,Price,Des}
-      axios.post("http://localhost:8080/data/add",data)
+      axios.post("https://uninterested-pink-blazer.cyclic.app/data/add",data)
       .then(res=>{
         console.log(res)
         if(res.data=="saved"){

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate} from 'react-router-dom'
 import axios from 'axios'
-import { Link } from 'react-router-dom'
+
 import { DashBoard } from '../dashboard/DashBoard'
 import Footer from '../Footer/Footer'
 import './Product.css'
@@ -19,7 +19,7 @@ function Product() {
   const getProduct= async()=>{
 
     try {
-        let productData= await fetch("http://localhost:8080/data/get",{
+        let productData= await fetch("https://uninterested-pink-blazer.cyclic.app/data/get",{
 
             method:"GET",
             headers :{
@@ -74,7 +74,7 @@ useEffect(()=>{
     console.log({productId,userId})
     const cartdata=({productId,userId})
 
-    axios.post("http://localhost:8080/user/add-to-cart",cartdata)
+    axios.post("https://uninterested-pink-blazer.cyclic.app/user/add-to-cart",cartdata)
     .then(res=>{
    
       console.log("productdata",res.data)
@@ -125,12 +125,12 @@ useEffect(()=>{
 
          
             { 
-              products.map((ele,index)=>(
+               products===0 ? "product is empty "  : products.map((ele,index)=>(
                 <div className='product-details' key={index}>
                   <img src={ele.Image} alt="" />
                   <h3>{ele.Name}</h3>
                   <p>Price:{ele.Price}</p>
-                  {/* <p>{ele.Des}</p> */}
+                  {/* <p>{ele.Des}</p> */} 
                   <button onClick={()=>
                     handleAddtoCart(ele._id)} >Add to cart</button>
                 </div>
